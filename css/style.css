@@ -145,12 +145,9 @@ body {
   .botonesCentro {
     justify-content: center;
     width: 80%;
-    margin: auto;
-    margin-bottom: 20px; }
+    margin: auto; }
   .sectionUno {
-    height: 100vh; }
-    .sectionUno h1 {
-      margin-top: 20px; }
+    height: 120vh; }
   .sectionUno p {
     width: 80%;
     margin: auto; }
@@ -174,7 +171,8 @@ body {
   .localesText {
     padding: 30px; }
   .botonesContacto {
-    display: flex; } }
+    display: flex;
+    flex-direction: column; } }
 
 @media (min-width: 769px) and (max-width: 1200px) {
   .sectionUno p {
