@@ -7,6 +7,15 @@
         justify-content: center;
         width: 80%;
         margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .sectionUno {
+        height: 100vh;
+
+        h1 {
+            margin-top: 20px;
+        }
     }
 
     .sectionUno p {
@@ -47,6 +56,11 @@
 
     .localesText {
         padding: 30px;
+    }
+
+    .botonesContacto {
+        display: flex;
+
     }
 }
 
