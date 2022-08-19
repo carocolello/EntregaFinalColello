@@ -61,15 +61,6 @@ body {
     margin-bottom: 20px;
     text-align: center; }
 
-.divFooter {
-  background-color: #a86d4d;
-  color: #fff; }
-
-.footerEsp ul li a {
-  color: #fff; }
-  .footerEsp ul li a:hover {
-    color: #dcdbdb; }
-
 .nosotrosMain,
 .nosotrosValores {
   margin: 30px auto; }
@@ -139,6 +130,15 @@ body {
   width: 150px;
   margin: 20px; }
 
+.divFooter {
+  background-color: #a86d4d;
+  color: #fff; }
+
+.footerEsp ul li a {
+  color: #fff; }
+  .footerEsp ul li a:hover {
+    color: #dcdbdb; }
+
 @media (max-width: 768px) {
   .botonB {
     margin-bottom: 10px; }
@@ -147,7 +147,8 @@ body {
     width: 80%;
     margin: auto; }
   .sectionUno {
-    height: 120vh; }
+    height: 100%;
+    padding: 30px; }
   .sectionUno p {
     width: 80%;
     margin: auto; }
