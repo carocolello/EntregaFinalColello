@@ -83,7 +83,8 @@ body {
   margin: 30px auto; }
 
 .cursosMain {
-  margin: 30px auto 50px auto; }
+  margin: 30px auto 50px auto;
+  display: flex; }
   .cursosMain a {
     text-decoration: none;
     color: #fff; }
@@ -93,7 +94,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 600px;
-  width: 500px;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   border-radius: 4px;
@@ -110,7 +111,6 @@ body {
   background-position: center;
   background-size: cover;
   height: 600px;
-  width: 500px;
   display: flex;
   justify-content: center;
   border-radius: 4px;
@@ -173,11 +173,37 @@ body {
     padding: 30px; }
   .botonesContacto {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .cursosUno {
+    max-width: 100%;
+    height: 500px;
+    padding: 30px; }
+  .cursosDos {
+    width: 100%;
+    height: 500px;
+    padding: 65px; } }
 
 @media (min-width: 769px) and (max-width: 1200px) {
   .sectionUno p {
     width: 80%;
     margin: auto; }
   .sectionTresTexto {
-    padding: 20px 0; } }
+    padding: 20px 0; }
+  .cursosUno {
+    width: 100%;
+    height: 500px;
+    padding: 30px; }
+  .cursosDos {
+    width: 100%;
+    height: 500px;
+    padding: 65px; } }
+
+@media (min-width: 1200px) {
+  .cursosUno {
+    width: 100%;
+    height: 500px;
+    padding: 30px; }
+  .cursosDos {
+    width: 100%;
+    height: 500px;
+    padding: 65px; } }
